@@ -8,6 +8,5 @@ Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) is a fundamenta
 Principles of CSMA/CA:
 1. Carrier Sensing:
 Before transmitting data, a node using CSMA/CA first listens to the wireless channel to determine if it is idle (no other transmissions detected). This step is crucial because multiple nodes within range may attempt to transmit simultaneously, leading to collisions and wasted bandwidth.
-
 2.Backoff Mechanism:
 If the channel is busy when a node wants to transmit (after sensing it as idle), it waits for a randomly chosen backoff period before attempting to transmit again. This randomized backoff helps to further reduce the likelihood of collisions when multiple nodes contend for the channel simultaneously.
