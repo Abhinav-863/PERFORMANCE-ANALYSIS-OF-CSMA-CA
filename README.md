@@ -6,7 +6,6 @@ CSMA/CA operates on the principle of nodes sensing the wireless medium before tr
 Carrier Sense Multiple Access with Collision Avoidance (CSMA/CA) is a fundamental medium access control protocol used in wireless networks to regulate how nodes access a shared communication channel. Unlike its wired counterpart, CSMA/CD (Collision Detection), which is used in Ethernet networks, CSMA/CA is specifically designed to mitigate the challenges posed by the unreliable nature of wireless transmissions, where collisions can occur due to factors such as hidden terminals, signal propagation delays, and varying signal strengths.
 
 Principles of CSMA/CA:
-
 1. Carrier Sensing:
 Before transmitting data, a node using CSMA/CA first listens to the wireless channel to determine if it is idle (no other transmissions detected). This step is crucial because multiple nodes within range may attempt to transmit simultaneously, leading to collisions and wasted bandwidth.
 
